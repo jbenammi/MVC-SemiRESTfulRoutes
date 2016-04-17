@@ -39,7 +39,10 @@
 */
 
 $route['default_controller'] = "Products";
+$route['Products'] = "Products/index";
 $route['Products/show/(:num)'] = "Products/show/$1";
+$route['Products/edit/(:num)'] = "Products/edit/$1";
+$route['Products/destroy/(:num)'] = "Products/destroy/$1";
 $route['404_override'] = '';
 
 
